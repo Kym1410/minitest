@@ -57,7 +57,7 @@ int loadData(Product *p){
 	FILE*fp;
 	fp = fopen("product.txt","rt");
 	//파일 내용을 읽어와서 배열에 값 추가하기
-	/*
+	
 	if(fp!=NULL){
 	for(count = 0; count<100; count++){
 		fscanf(fp,"%d", &p[count].weight);
@@ -71,7 +71,7 @@ int loadData(Product *p){
 	else if(fp == NULL){
 	printf("파일 없음!");
 	}
-	*/
+	
 	//printf("=> 로딩 성공!\n");
 	return count;
 }
