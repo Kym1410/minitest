@@ -51,6 +51,7 @@ void saveData(Product p[], int count){
 }
 
 
+
 //파일에서 데이터 불러오는 함수
 int loadData(Product *p){
 	int count;
